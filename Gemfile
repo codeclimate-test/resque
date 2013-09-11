@@ -23,3 +23,5 @@ group :test do
   gem "sinatra"
   gem 'mock_redis', :git => "https://github.com/causes/mock_redis.git"
 end
+
+gem "codeclimate-test-reporter", group: :test, require: nil
