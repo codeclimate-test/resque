@@ -29,11 +29,11 @@ $TEST_PID = Process.pid
 # make sure we can run redis
 #
 
-if !system("which redis-server")
-  puts '', "** can't find `redis-server` in your path"
-  puts "** try running `sudo rake install`"
-  abort ''
-end
+# if !system("which redis-server")
+#   puts '', "** can't find `redis-server` in your path"
+#   puts "** try running `sudo rake install`"
+#   abort ''
+# end
 
 
 #
